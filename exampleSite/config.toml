@@ -3,7 +3,7 @@ baseURL = "https://mun.hwtech.club"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
-title = "WATTMUN"
+title = "WattMUN Society"
 
 # css plugins
 [[params.plugins.css]]
