@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "https://objective-kilby-2975fc.netlify.app/"
+baseURL = "https://mun.hwtech.club"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
