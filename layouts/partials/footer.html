@@ -8,7 +8,7 @@
       </div>
       <div class="col-lg-8 mx-auto">
         <div class="bg-white rounded text-center p-5 shadow-down">
-          <h4 class="mb-80">Contact Form</h4>
+          <h4 class="mb-80"></h4>
           <form action="{{.Site.Params.contact.form_action}}" method="POST" class="row">
             <div class="col-md-6">
               <input type="text" id="name" name="name" placeholder="Full Name" class="form-control px-0 mb-4">
@@ -62,6 +62,12 @@
 {{ range .Site.Params.plugins.js}}
 <script src="{{ .URL | absURL }}"></script>
 {{ end }}
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script>
+  $( document ).ready(function() {
+    $('.counter').counterUp();
+  });
+</script>
 
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}

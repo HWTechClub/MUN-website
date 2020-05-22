@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <!-- page title -->
-<section class="page-title-alt bg-primary position-relative overflow-hidden">
+<section class="page-title-alt main-image position-relative overflow-hidden">
   <div class="container">
     <div class="row">
       <div class="col-12">
@@ -19,6 +19,21 @@
 </section>
 <!-- /page title -->
 
+<!-- Temporary solution -->
+ <style>
+   .main-image{
+     background:/* top, transparent black, faked with gradient */
+       linear-gradient(
+         rgba(0, 0, 0, 0.5),
+         rgba(0, 0, 0, 0.5)
+       ),
+       /* bottom, image */
+       url(https://wallpaperaccess.com/full/222675.jpg);
+     background-repeat: no-repeat, repeat;
+     background-color: #cccccc;
+   }
+ </style>
+
 <!-- about -->
 <section class="section pt-5">
   <div class="container">
@@ -31,7 +46,7 @@
           <img src="{{.Params.author_image | absURL }}" alt="author"
             class="img-fluid w-100 rounded-lg border-thick border-white">
         </div>
-        <img src="{{.Params.author_signature | absURL }}" alt="signature" class="img-fluid">
+        <!--<img src="{{.Params.author_signature | absURL }}" alt="signature" class="img-fluid">-->
         <h4>{{ .Site.Params.Author }}</h4>
       </div>
     </div>

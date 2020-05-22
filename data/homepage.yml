@@ -1,11 +1,11 @@
 # banner
 banner:
-  title : "Welcome to <br> WATTMUN"
+  title : "Welcome to <br> WattMUN Society"
 
 # about
 about:
   enable : true
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  content : "Welcome to the WattMUN Society of the Heriot Watt University Dubai Campus Model United Nations Club! Heriot Watt Dubai is committed to academic and extracurricular excellence and has always prioritized the interests and holistic growth of its students and has created true global citizens in the past through its various clubs. The Model United Nations Club, founded in 2013, has established a reputation in various areas both in the country and overseas and aims, in conjunction with Heriot Watt University’s aims, to provide the student community a platform for enriching their skills to create better individuals for the future. The world we will enter after our education ..."
   button:
     enable : true
     label : "know more"
@@ -54,24 +54,12 @@ experience:
 
 # education
 education:
-  enable : false
-  title : "Education"
+  enable : true
+  title : "Our Numbers"
   item:
-    - title : "Marters in UX Design"
-      year : "2006"
-      academy : "Masassusets Institute of Technology"
-
-    - title : "Honours in Fine Arts"
-      year : "2004"
-      academy : "Harvard University"
-
-    - title : "Higher Secondary Certificat"
-      year : "2000"
-      academy : "Cardiff School"
-
-    - title : "Secondary School Certificate"
-      year : "1998"
-      academy : "Cardiff School"
+    - title : "40"
+      year : "Members"
+      academy : ""
 
 # service
 service:
@@ -102,7 +90,7 @@ portfolio:
 
 # testimonial
 testimonial:
-  enable : true
+  enable : false
   title : "Testimonials"
   item:
     - name : "Jesica Gomez"

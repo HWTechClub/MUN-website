@@ -1,5 +1,5 @@
 <!-- page title -->
-<section class="page-title bg-primary position-relative overflow-hidden">
+<section class="page-title main-image position-relative overflow-hidden">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -17,3 +17,18 @@
   <!--<img src="{{`images/illustrations/leaf-cyan-lg.svg`| relURL}}" alt="illustrations" class="bg-shape-7">-->
 </section>
 <!-- /page title -->
+
+<!-- Temporary solution -->
+ <style>
+   .main-image{
+     background:/* top, transparent black, faked with gradient */
+       linear-gradient(
+         rgba(0, 0, 0, 0.5),
+         rgba(0, 0, 0, 0.5)
+       ),
+       /* bottom, image */
+       url(https://wallpaperaccess.com/full/222675.jpg);
+     background-repeat: no-repeat, repeat;
+     background-color: #cccccc;
+   }
+ </style>
