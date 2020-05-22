@@ -65,11 +65,11 @@ logo = "images/logo.png"
 theme_color = "black"
 # contact info
 phone = "+971 55 698 6401"
-email = "steve.fruits@email.com"
+email = "mss13@hw.ac.uk"
 address = "Heriot Watt, Academic City , Dubai, UAE"
 # meta description
 author = ""
-description = "This is meta description"
+description = ""
 # google analytics
 google_analytics_id = "" # Your ID
 # copyright
@@ -79,7 +79,7 @@ copyright = "Copyright &copy; 2020 a theme by [gethugothemes](https://gethugothe
 # contact
 [params.contact]
 enable = true
-form_action = "#" # contact form works with : https://formspree.io
+form_action = "https://formspree.io/akilan@hwtech.club"
 
 # preloader
 [params.preloader]

@@ -3,31 +3,36 @@ work_process:
   enable : true
   title : "Our History"
   item:
-  - title : "Research and Plan"
-    icon : "images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "Yasha Qamar (President)"
+    icon : ""
+    content : "2016-2017"
 
-  - title : "Design and Develop"
-    icon : "images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "Asrar Ali Khan (President)"
+    icon : ""
+    content : "<span style='font-weight:700'>Mervin Chotrani (Vice-President)</span> <br> 2017-2018"
 
-  - title : "Deliver"
-    icon : "images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  - title : "Moustapha Helmy (President)"
+    icon : ""
+    content : "<span style='font-weight:700'>Chandni Jeswani (Vice-President) </span> <br> 2018-2019"
+
+  - title : "Maha Siddiqui (President)"
+    icon : ""
+    content : "<span style='font-weight:700'>Leanne Martis (Vice-President)</span> <br> 2019-2020"
+
 
 
 # team
 team:
   enable: true
-  title : "My Team"
+  title : "Current Team"
   team_member:
-    - title : "Jack Schenziwe"
-      image : "images/team/member-1.png"
-      designation : "Project Manager"
+    - title : "Maha Siddiqui"
+      image : "images/logo.png"
+      designation : "President"
 
-    - title : "Julias Carlie"
-      image : "images/team/member-2.png"
-      designation : "Web Developer"
+    - title : "Ashna Nizar"
+      image : "images/logo.png"
+      designation : "Vice-President"
 
 
 
