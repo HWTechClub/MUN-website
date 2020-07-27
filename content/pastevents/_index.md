@@ -1,5 +1,5 @@
 ---
 title: "Past events"
-description: "This is meta description."
+description: "Events that took place before"
 draft: false
 ---

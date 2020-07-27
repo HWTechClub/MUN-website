@@ -29,10 +29,12 @@ team:
     - title : "Maha Siddiqui"
       image : "images/logo.png"
       designation : "President"
+      contact : "+971 55 698 6401"
 
     - title : "Ashna Nizar"
       image : "images/logo.png"
       designation : "Vice-President"
+      contact : "+971 50 827 8920"
 
 
 
