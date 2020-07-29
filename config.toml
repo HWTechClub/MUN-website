@@ -1,5 +1,5 @@
 # default configuration
-baseURL = "https://mun.hwtech.club"
+baseURL = "https://laughing-mestorf-4c1d0b.netlify.app"
 languageCode = "en-us"
 summaryLength = "10"
 theme = "kross-hugo"
